@@ -1,0 +1,149 @@
+/* ************************************* */
+/* BELOW 1086px (for Landscape tablet) */
+/* ************************************* */
+/* 1086  / 16 */
+@media (max-width: 68em) {
+  html {
+    /* 9 px / 16px = 0.5 = 56.25% */
+    font-size: 50%;
+  }
+  .heading--text {
+    font-weight: 800;
+    font-size: 4.6rem;
+    height: 100%;
+  }
+}
+
+/* ************************************* */
+/* BELOW 882px (for small  tablet) */
+/* ************************************* */
+/* 882  / 16 */
+@media (max-width: 55em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    /* font-size: 50%; */
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .read--more--btn {
+    font-size: 1.2rem;
+  }
+  .main-heading-box {
+    flex-direction: column;
+  }
+  .sub--heading--box {
+    gap: 1.8rem;
+  }
+
+  /* For Mobile */
+  .btn-mobile-nav {
+    display: block;
+    z-index: 9999;
+  }
+  .main-nav {
+    background-color: rgb(255, 255, 255);
+    /* backdrop-filter: blur(10px); */
+
+    position: absolute;
+    top: 0;
+    left: 20%;
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+
+    transition: all 0.5s ease-out;
+
+    transform: translateX(100%);
+
+    /* Hide Navigation */
+    /* Allows no transition at all */
+    /* display: none; */
+
+    /* 1) Hide it visulaay */
+    opacity: 0;
+    /* 2) Make it unaccessible to mouse & keyboard*/
+    pointer-events: none;
+    /* 3) Hide it from screen reader*/
+    visibility: hidden;
+  }
+  .nav-open .main-nav {
+    /* Show navigation */
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+  .main-nav-lists {
+    flex-direction: column;
+    gap: 6rem;
+    align-items: flex-start;
+    margin-left: 10rem;
+    margin-bottom: 20rem;
+  }
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 4.8rem;
+  }
+}
+
+/* ************************************* */
+/* BELOW 740px (for Small Tablet) */
+/* ************************************* */
+@media (max-width: 46em) {
+  .header {
+    padding: 0 0rem;
+  }
+  .container {
+    padding: 0 0rem;
+    gap: 3.2rem;
+  }
+  .section--hero {
+    padding: 3.2rem 0 5rem 0;
+  }
+  .section--news {
+    padding: 2.5rem 0 2.5rem 0;
+  }
+}
+
+/* ************************************* */
+/* BELOW 624px  */
+/* ************************************* */
+@media (max-width: 39em) {
+  .container {
+    gap: 4rem;
+  }
+  .black--box {
+    margin-top: 8rem;
+  }
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 3.2rem;
+  }
+}
+
+/* ************************************* */
+/* BELOW 544px (for Mobile) */
+/* ************************************* */
+@media (max-width: 34em) {
+  .main-image {
+    display: none;
+  }
+  .main-image-mobile {
+    display: block;
+    width: 100%;
+    height: 60%;
+  }
+}

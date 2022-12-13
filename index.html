@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta
+      name="description"
+      content="Beautiful News UI made out of HTML & CSS only "
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Include favicon -->
+    <link rel="icon" href="assets/images/favicon-32x32.png" />
+    <link rel="icon" href="assets/images/favicon-64x64.png" />
+    <link rel="icon" href="assets/images/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <script defer src="javascript/script.js"></script>
+
+    <title>Womble &mdash; News of Today</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <img src="../assets/images/logo.svg" alt="" class="logo" />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-lists">
+          <li><a href="#" class="main-nav-link">Home</a></li>
+          <li><a href="#" class="main-nav-link">New</a></li>
+          <li><a href="#" class="main-nav-link">Popular</a></li>
+          <li><a href="#" class="main-nav-link">Trending</a></li>
+          <li><a href="#" class="main-nav-link">Catagories</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <img
+          src="../assets/images/icon-menu.svg"
+          class="icon-mobile-nav"
+          name="menu-outline"
+        />
+        <img
+          src="../assets/images/icon-menu-close.svg"
+          class="icon-mobile-nav"
+          name="close-outline"
+        />
+      </button>
+    </header>
+
+    <main>
+      <section class="section--hero">
+        <div class="container">
+          <div class="img--container">
+            <img
+              src="../assets/images/image-web-3-desktop.jpg"
+              alt="home image"
+              class="main-image"
+            />
+            <img
+              src="../assets/images/image-web-3-mobile.jpg"
+              alt="home image"
+              class="main-image-mobile"
+            />
+            <div class="main-heading-box">
+              <h1 class="heading--text">The Bright Future of Web 3.0?</h1>
+
+              <div class="sub--heading--box">
+                <p class="paragraph">
+                  We dive into the next evolution of the web that claims to put
+                  the power of platforms back into the heads of the people. But
+                  is it really fulfilling its promise?
+                </p>
+                <button class="read--more--btn">read more</button>
+              </div>
+            </div>
+          </div>
+          <div class="black--box">
+            <h1 class="heading">New</h1>
+            <div class="main--box">
+              <div class="box">
+                <h3 class="sub--heading">Hydrogen VS Electric Cars</h3>
+                <p class="para paragraph">
+                  Will hydrogen fueld cars ever catchup to EVs?
+                </p>
+              </div>
+
+              <hr />
+
+              <div class="box">
+                <h3 class="sub--heading">The Downside of AI Aitistry</h3>
+                <p class="para paragraph">
+                  What are these possible adverse effects of on-demand AI image
+                  generation?
+                </p>
+              </div>
+
+              <hr />
+
+              <div class="box">
+                <h3 class="sub--heading">Is VC Funding Drying Up?</h3>
+                <p class="para paragraph">
+                  Private funding by VC firms is down 50% YOY,We take a look at
+                  what that means.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section--news">
+        <div class="container news-container">
+          <div class="news">
+            <img
+              src="../assets/images/image-retro-pcs.jpg"
+              alt="#"
+              class="news--image"
+            />
+            <div class="news--box">
+              <h1 class="news-number">01</h1>
+              <h3 class="news-heading">Reviving Retro PCs</h3>
+              <h3 class="news-paragraph">
+                What happen when old PCs are given model upgrade?
+              </h3>
+            </div>
+          </div>
+          <div class="news">
+            <img
+              src="../assets/images/image-top-laptops.jpg"
+              alt="#"
+              class="news--image"
+            />
+            <div class="news--box">
+              <h1 class="news-number">02</h1>
+              <h3 class="news-heading">Top 10 Laptops of 2022</h3>
+              <h3 class="news-paragraph">
+                Our best piks for various needs and budgets
+              </h3>
+            </div>
+          </div>
+          <div class="news">
+            <img
+              src="../assets/images/image-gaming-growth.jpg"
+              alt="#"
+              class="news--image"
+            />
+            <div class="news--box">
+              <h1 class="news-number">03</h1>
+              <h3 class="news-heading">The Growth of Gaming</h3>
+              <h3 class="news-paragraph">
+                How the pandemic has sparked fresh opportunities
+              </h3>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
