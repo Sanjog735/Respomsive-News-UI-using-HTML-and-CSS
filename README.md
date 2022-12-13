@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://your-solution-url.com)
+- Solution URL: (https://github.com/Sanjog735/Womble-NewsHomepage-UI))
 - Live Site URL: (https://womble-news.netlify.app)
 
 ## My process
