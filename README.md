@@ -49,6 +49,11 @@ In this challenge i learn about the core concept of HTML5 , basics of CSS3 , CSS
 
 I want to continued developement on the CSS part for animating different parts
 
+## ScreenShot!
+
+![desktop-design](https://user-images.githubusercontent.com/61593168/208064644-3eae3a9d-138c-4f4b-bf1c-07bea04359ca.jpg)
+
+
 ### Useful resources
 
 - [Example resource 1](https://www.stackoverflow.com) - This helped me for changing the image according to the width of the viewport( different screen size ) . I really liked this method which is inside my queries.css file and will use it going forward.
